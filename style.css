@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.navopt {
+  border: none;
+  background: none;
+  color: #858a8f;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.btn-primary {
+  width: 180px;
+  height: 50px;
+  font-weight: 700;
+}
+
+.head1 {
+  color: #333;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px;
+}
+
+.head_p {
+  color: #858a8f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.card-1 {
+  width: 350px;
+  height: 280px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.cards {
+  height: 450px;
+  background-image: url(cardback.png);
+  align-items: center;
+  display: flex;
+}
+
+.cardp {
+  color: #858a8f;
+
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+#wep {
+  font-size: 15px;
+}
+.contcont {
+  margin-top: 200px;
+}
+
+.bogdanback {
+  background-image: url(bogdanback.png);
+  height: 1200px;
+}
+#movep {
+  line-height: 30px;
+}
+.usersh {
+  color: #2dca8c;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px;
+}
+#yellh{
+  color: #FFBE3D;
+}
+#redh{
+  color: #FF715B;
+}
+
+.card-move{
+  width: 350px;
+  height: 550px;
+  border: solid 1px rgba(245, 246, 250, 1);
+  border-radius: 7px;
+  
+}
+.image-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#377DFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height:50px;
+  font-weight: 600;
+}
+.image-button img {
+  height: 20px;
+  margin-right: 10px;
+}
